@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply flex items-center justify-center m-2 w-full
+  @apply flex flex-col mt-2 w-full
 }
 
 h1 {
-  font-family: 'Caveat', cursive;
-  @apply font-semibold text-4xl
+  @apply font-semibold text-4xl p-5
 }
 
 h1 span {

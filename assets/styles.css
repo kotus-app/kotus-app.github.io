@@ -516,19 +516,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
 body {
-  margin: 0.5rem;
+  margin-top: 0.5rem;
   display: flex;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
-  font-family: 'Caveat', cursive;
+  padding: 1.25rem;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  font-weight: 600
+  font-weight: 600;
 }
 
 h1 span {
